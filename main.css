@@ -1,0 +1,50 @@
+/*HEADER ---------------------*/
+
+html {
+	font-size: 14px;
+}
+
+#header_wrapper {
+	background-color: #505050;
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid black;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Oswald', arial, sans-serif;
+	color: #fff;
+	font-size: 4rem;
+	margin: auto;
+	padding: 40px;
+	max-width: 600px;
+}
+
+#header_image {
+	display: block;
+	margin: auto;
+	max-width: 150px;
+	height: auto;
+	border-radius: 50%;
+}
+
+
+/*Media Queries ---------------------*/
+
+/*Mobile screen at 480px wide*/
+
+@media screen and (max-width: 480px) {
+	
+	/*Header ---------------------*/
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	#header_image {
+		padding: 10px;
+		max-width: 80px;
+	}
+
+}
